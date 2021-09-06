@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.stock.min.js"></script>
+<script type="text/javascript" src="reader.js"></script>
+<script type="text/javascript" src="fsmd.js"></script>
+<script type="text/javascript" src="Web_Service.js"></script>
+<link rel="stylesheet" href="stylesd.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://kit.fontawesome.com/701ed08848.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  </head>
+
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://github.com/devenparab/VNIT-19">Northern Trust VNIT : Team 19</a>
+     
+      <div class="dropdown" >
+        <button class="btn btn-dark dropdown-toggle" type="button" data-toggle="dropdown">Search Your Symbol
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu" id="menu">
+        </ul>
+      </div>
+      
+  
+      <div class="dropdown" >
+        <button class="btn btn-dark dropdown-toggle" type="button" data-toggle="dropdown">Select Your Chart Type
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu" id="chart-type">
+          <li class="dropdown-item" id="ohlc">OHLC</li>
+          <li class="dropdown-item" id="candlestick">CandleStick</li>
+          <li class="dropdown-item" id="line">Line</li>
+          <li class="dropdown-item" id="bar">Bar</li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <br>
+    <br>
+      <div class="heading mx-auto" id="heading">
+        <h1 >STOCK CHART</h1>
+      </div>
+
+<div class="chart">
+<div id="chartContainer"></div> 
+</div>
+<div class="footer">
+<p>Made by Team 19 : Visvesvaraya National Institute of Technology Nagpur</p>
+</div>
+
+</body>
+</html>
