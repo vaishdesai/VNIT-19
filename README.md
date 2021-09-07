@@ -4,7 +4,9 @@ Dashboard for analysis of Stock OCHL. It helps analyse market sentiment of a par
 
 ## Tech Stack
 Data Structure: Set, Array
+
 Tool: Nodejs, Canvasjs, HTML, CSS, jquery
+
 
   
 ## Installation
